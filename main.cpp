@@ -1,4 +1,6 @@
-
+/* Debugging Example 
+  by OLU
+*/
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -7,7 +9,7 @@ int main() {
    const int NUM_ELEMENTS = 8;        // Number of elements
    vector<int> revVctr(NUM_ELEMENTS); // User values
    unsigned int i;                    // Loop index
-   int top, bottom;
+   int bottom;
   
    cout << "Enter " << NUM_ELEMENTS << " integer values..." << endl;
    for (i = 0; i < revVctr.size(); ++i) {
